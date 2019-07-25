@@ -1,0 +1,6 @@
+@font-face {
+    font-family: AnonymousPro;
+    src: url(font/AnonymousPro.ttf);
+}
+
+* { margin: 0px; padding: 0px; font-family: AnonymousPro; }
