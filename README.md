@@ -13,4 +13,4 @@ A basic template for PHP
 * GNU V3 (see `LICENSE` for more details)
 
 ## Thanks to ##
-- Mark Simonson Studio LLC [Official Website](http://www.ms-studio.com ) for ofert the font "Anonymous Pro" under Open Font License / OFL, versión 1.1
+- Mark Simonson Studio LLC [Official Website](http://www.ms-studio.com) for ofert the font "Anonymous Pro" under Open Font License / OFL, versión 1.1

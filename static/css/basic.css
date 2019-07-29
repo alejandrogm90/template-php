@@ -1,6 +1,84 @@
+/*
+BASIC
+*/
+
 @font-face {
     font-family: AnonymousPro;
     src: url(font/AnonymousPro.ttf);
 }
 
 * { margin: 0px; padding: 0px; font-family: AnonymousPro; }
+
+
+/*
+:root {
+    --color1: #D4D7C4;
+    --color2: #E2E3BB;
+    --color3: #898965;
+    --color4: #8A7E4E;
+    --color5: #25291B;
+}
+*/
+
+:root {
+    --color1: #25291B;
+    --color2: #8A7E4E;
+    --color3: #898965;
+    --color4: #E2E3BB;
+    --color5: #D4D7C4;
+}
+
+body {
+    background-color: var(--color5);
+}
+
+#box1 {
+    width: 70%;
+    min-height: 800px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--color3);
+    border-color: var(--color4);
+}
+
+section {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: var(--color2);
+    border-color: var(--color4);
+}
+
+section h1 {
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+/*
+footer {
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: inherit;
+}
+*/
+
+footer {
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    left: 0;
+    right: 0;
+}
